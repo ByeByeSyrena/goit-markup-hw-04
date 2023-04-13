@@ -210,14 +210,20 @@ body {
 
 /* First section */
 
-.main-first-section {
+/* .main-first-section {
   padding: 188px 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+} */
+
+.first-section {
+  padding: 188px 0;
+  background-color: var(--navy-blue);
+  background: linear-gradient(rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.7) 50%),
     url(../images/main-back-image.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  max-width: 1440px;
+  max-height: 600px;
   background-attachment: scroll;
-  background-position: top;
+  background-position: 50% 0%;
 }
 
 /* .main-first-section {
@@ -505,4 +511,10 @@ body {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
+}
+
+.portf-item-content:hover {
+  border: 1px solid var(--cloud);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
