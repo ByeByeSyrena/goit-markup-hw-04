@@ -46,6 +46,8 @@ body {
 
 .top {
   border-bottom: 1px solid var(--cornflower);
+  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-content {
@@ -314,16 +316,22 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.second-pic-settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  background-color: var(--cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 
 .benefits-icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 8px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  background-color: var(--cloud);
 }
+
 .second-section-menu {
   display: flex;
   flex-wrap: wrap;
